@@ -11,6 +11,7 @@
     <modules>
         <module>springbootinitialzr</module>
         <module>springbootmv</module>
+        <module>springmvcmv</module>
     </modules>
 
 
