@@ -8,6 +8,7 @@
     <artifactId>xiaobao</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>springbootinitialzr</module>
         <module>springbootmv</module>
