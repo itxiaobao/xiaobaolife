@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>life.xiaobao</groupId>
-	<artifactId>scribbonserver</artifactId>
+	<artifactId>sczuulserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>scribbonserver</name>
+	<name>sczuulserver</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -30,13 +30,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 		</dependency>
-        <!--熔断器hystrix-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
