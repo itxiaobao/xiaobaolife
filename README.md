@@ -34,8 +34,9 @@ Tip：启动client后把端口改为8883，然后启动，即client的8882与888
 # sc-* 微服务架构(整合版)
 说明：前面两个微服务架构保留原始demo，便于理解微服务。这个版本则进行各种框架的整合  
 包含：  
-sc-eureka-server  
-sc-eureka-client  
-sc-feign-server  
-sc-ribbon-server  
-持续更新中.......
+sc-eureka-server  注册 
+sc-eureka-client  发现  
+sc-feign-server  消费  
+sc-ribbon-server  消费  
+sc-zuul-server  路由  
+未完成，持续更新中.......
