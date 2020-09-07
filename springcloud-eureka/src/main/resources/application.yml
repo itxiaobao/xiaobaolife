@@ -9,9 +9,9 @@ spring:
 eureka:
   instance:
     hostname: localhost
-  client:   #server一定程度上也是client，互为client
-    register-with-eureka: false   #禁止自己当做服务注册（自己本身就是服务）
-    fetch-registry: false   #屏蔽注册信息（自己本身就是服务）
+  client:
+    register-with-eureka: false
+    fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       #defaultZone: http://${spring.application.name}:${server.port}/eureka/
