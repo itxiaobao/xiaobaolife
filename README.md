@@ -24,7 +24,7 @@ spc-eureka-server  注册
 spc-eureka-client  发现  
 spc-ribbon-server  消费  
 spc-feign-server   消费  
-ribbon与feign功能类似，使用其中一种即可，也可以组合使用
+ribbon与feign功能类似，使用其中一种即可，也可以组合使用  
 访问地址：  
 eureka-server：http://localhost:8881/  
 eureka-client：http://localhost:8882/hello  
