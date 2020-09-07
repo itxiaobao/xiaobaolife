@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-		<!--解决eureka-client没有tomcat依赖，导致无法启动，也可把eureka-client直接改为eureka-server-->
+		<!--解决eureka-client没有tomcat依赖，导致无法启动，也可把eureka-client直接改为eureka-server -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
