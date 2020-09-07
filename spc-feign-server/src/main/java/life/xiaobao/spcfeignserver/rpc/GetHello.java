@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient("eureka-client")
 public interface GetHello {
 
-    @RequestMapping(value = "/hello",method = RequestMethod.GET)
-    String sayHello(@RequestParam(value = "name") String name);
+    @RequestMapping("/hello")
+    String sayHello(String name);
 
 }
