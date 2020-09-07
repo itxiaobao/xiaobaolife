@@ -28,8 +28,8 @@ ribbon与feign功能类似，使用其中一种即可，也可以组合使用
 访问地址：  
 eureka-server：http://localhost:8881/  
 eureka-client：http://localhost:8882/hello  
-ribbon-server：http://localhost:8884/hello
-feign-server：http://localhost:8885/hello
+ribbon-server：http://localhost:8884/hello  
+feign-server：http://localhost:8885/hello  
 Tip：启动client后把端口改为8883，然后启动，即client的8882与8883双实例形成负载。当你用ribbon和feign去消费的时候，8882与8883将会自动轮询切换
 # spc-* 微服务架构(整合版)
 说明：前面两个微服务架构保留原始demo，便于理解微服务。这个版本则进行各种框架的整合  
