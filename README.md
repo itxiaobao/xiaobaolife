@@ -39,4 +39,5 @@ sc-eureka-client  发现
 sc-feign-server  消费  
 sc-ribbon-server  消费  
 sc-zuul-server  路由  
+sc-gateway-server 路由  
 未完成，持续更新中.......
