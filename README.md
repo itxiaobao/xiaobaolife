@@ -40,4 +40,7 @@ sc-feign-server  消费
 sc-ribbon-server  消费  
 sc-zuul-server  路由  
 sc-gateway-server 路由  
+sc-admin-client 应用监控  
+sc-admin-server 应用监控服务中心  
+目前用到的框架：  springboot+eureka+ribbon+feign+zuul+gateway+admin+hystrix+mail+flux+actuator+security  
 未完成，持续更新中.......
