@@ -44,3 +44,4 @@ sc-admin-client 应用监控
 sc-admin-server 应用监控服务中心  
 目前用到的框架：  springboot+eureka+ribbon+feign+zuul+gateway+admin+hystrix+mail+flux+actuator+security  
 未完成，持续更新中.......
+最近游离了一段时间，拖更ing。
